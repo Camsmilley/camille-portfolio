@@ -28,7 +28,7 @@ const Photo = () => {
             quality={100}
             fill
             alt=""
-            className="object-contain"
+            className="object-contain outline-style: solid;"
           />
         </motion.div>
 
@@ -43,7 +43,7 @@ const Photo = () => {
             cx="253"
             cy="253"
             r="250"
-            stroke="#00ff99"
+            stroke="#C68FE6"
             strokeWidth="4"
             strokeLinecap="round"
             strokeLinejoin="round"

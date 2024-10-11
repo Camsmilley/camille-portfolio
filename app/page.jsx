@@ -4,7 +4,6 @@ import { FiDownload } from "react-icons/fi";
 // components
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
-import Stats from "@/components/Stats";
 
 const Home = () => {
   return (
@@ -13,13 +12,16 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Software Developer</span>
+            <span className="text-xl">Full Stack Web Developer</span>
             <h1 className="h1 mb-6">
-              Hello I'm <br /> <span className="text-accent">Luke Coleman</span>
+              Hello I'm <br />{" "}
+              <span className="text-accent">Camille Joy Domingo</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and I am
-              proficient in various programming languages and technologies.
+              A passionate web developer with a love for creating intuitive and
+              dynamic user experiences. With a background in creating different
+              project, I specialize in building responsive and engaging web
+              applications.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
@@ -28,7 +30,7 @@ const Home = () => {
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-                <span>Download CV</span>
+                <a href="/assets/CV-Domingo.pdf">Download CV</a>
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">
@@ -45,7 +47,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Stats />
     </section>
   );
 };

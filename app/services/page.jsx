@@ -6,31 +6,28 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "Web Development",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+    title: "Full-Stack Web Developer",
+    description: "Contribute to front-end and back-end development processes.",
+    href: "https://github.com/Camsmilley/Capstone-Final",
   },
   {
     num: "02",
-    title: "UI/UX Design",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+    title: "Front-end Developer",
+    description: "Who writes clean, elegant and efficient code.",
+    href: "https://github.com/Camsmilley/pp4-trial",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "Back-end Developer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+      "who build and maintain the mechanisms that process data and perform actions on websites.",
+    href: "https://github.com/Camsmilley/backend",
   },
   {
     num: "04",
-    title: "SEO",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+    title: "Banner Design",
+    description: "Define your brand identity.",
+    href: "https://www.canva.com/design/DAF6X-dhV_4/uSHT3xwpnxmSyYZ3LPCW4Q/edit",
   },
 ];
 
